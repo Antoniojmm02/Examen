@@ -1,0 +1,73 @@
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;   
+}
+.inicio{
+    display: flex;
+    flex-direction: column;
+    height: 30rem;
+    background-color: rgb(69, 9, 126);
+    text-align: center;
+}
+.esquina{
+    display: flex;
+    justify-content: flex-end;
+}
+.esquina p{
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: aquamarine;
+}
+.inicio h1{
+    color: white;
+    font-size: 3rem;
+}
+.inicio h1 span{
+    text-decoration: underline;
+    text-decoration-color: aquamarine;
+}
+.boton{
+    background-color: aquamarine;
+    margin: 0 auto;
+    text-align: center;
+    width: 7rem;
+}
+img{
+    margin-top: 15px;
+    width: 24rem;
+    height: 17rem;
+}
+.contenedor{
+    display: flex;
+    border: 1px solid rgba(137, 43, 226, 0.658);
+    border-radius: 100%;
+    width: 20px;
+    margin-top: 10px;
+    height: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+}
+
+.textos{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 7rem;
+    font-size:15px ;
+}
+.textos h3{
+    color: rgb(91, 6, 170);
+}
+.textos p {
+    margin-top: 0;
+    color: rgba(137, 43, 226, 0.658);
+}
+
